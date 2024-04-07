@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Categories=GNOME;
+Icon=vscode
+Name=Code
+Comment=GNOME Shell search provider for vscode
+Exec=/usr/share/code/code --unity-launch %F
+Terminal=false
+Type=Application
+OnlyShowIn=GNOME;

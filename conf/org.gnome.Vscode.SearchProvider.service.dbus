@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.Vscode.SearchProvider
+Exec=/usr/lib/gnome-vscode-search-provider/gnome-vscode-search-provider.py
