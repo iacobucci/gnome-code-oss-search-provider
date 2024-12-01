@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import re
 import subprocess
 import os
 import json
@@ -9,7 +8,6 @@ from os import walk
 from os.path import expanduser
 from os.path import join as path_join
 
-from fuzzywuzzy import process
 import dbus.service
 from dbus.mainloop.glib import DBusGMainLoop
 
@@ -61,7 +59,7 @@ class SearchEngine():
 
     def __init__(self):
         self.cache = []
-        self.workspace_storage_path = os.path.expanduser('~/.config/Code/User/workspaceStorage')
+        self.workspace_storage_path = os.path.expanduser('~/.config/Code - OSS/User/workspaceStorage')
 
     def search(self, query: str):
         if (len(self.cache) > 100):

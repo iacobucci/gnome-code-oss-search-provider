@@ -1,10 +1,10 @@
 [Desktop Entry]
 Version=1.0
 Categories=GNOME;
-Icon=vscode
-Name=Code
+Icon=code-oss
+Name=Code recents
 Comment=GNOME Shell search provider for vscode
-Exec=/usr/share/code/code --unity-launch %F
+Exec=/usr/bin/code-oss %F
 Terminal=false
 Type=Application
 OnlyShowIn=GNOME;
