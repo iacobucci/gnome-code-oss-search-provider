@@ -67,6 +67,9 @@ class SearchEngine():
 
         newresults = []
 
+        if query[0] == "~":
+            query = expanduser(query)
+
         directresult = {"title": "Open file " +
                         query + " with Code", "href": query}
         newresults.append((str(id(directresult)), directresult))
