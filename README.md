@@ -41,7 +41,7 @@ Ensure that python>=3.7 as well as the dbus, gobject and  duckduckgo_search Pyth
 
 Clone this repository and run the installation script as root:
 ```
-git clone https://github.com/iacobucci/gnome-duckduckgo-search-provider.git
+git clone https://github.com/iacobucci/gnome-code-oss-search-provider.git
 cd gnome-pass-search-provider
 sudo ./install.sh
 ```
