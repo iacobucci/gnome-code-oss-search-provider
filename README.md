@@ -1,17 +1,10 @@
-# gnome-duckduckgo-search-provider
+# gnome-vscode-search-provider
 
 ![screenshot](misc/screenshot.png)
 
-It provides DuckDuckGo search with completion for the GNOME Shell, because I really needed this. Works with !bangs too.
-You need to actually use the "!" before the shortcut, sadly it didn't fit into the screenshot :(
+It provides Code-OSS search with completion for the GNOME Shell.
 
 # Installation
-
-## Fedora
-
-I'm currently using fedora so I'm willing to post the rpm package on a copr repo sometime soon.
-
-### Manual
 
 Ensure that python>=3.7 as well as the dbus, gobject and  duckduckgo_search Python modules are installed. They should all be packaged under python-name or python3-name depending on your distribution.
 
