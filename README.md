@@ -2,7 +2,7 @@
 
 ![screenshot](misc/screenshot.png)
 
-It provides Code-OSS search with completion for the GNOME Shell, and leverages the `workspaceStorage` database.
+It provides Code-OSS search for recent projects with completion for the GNOME Shell, leveraging the `workspaceStorage` database.
 
 For this reason it is a good idea to keep it clean. Here is a convenient script that helps you to choose which files to delete, with the aid of `fzf`.
 
@@ -32,6 +32,8 @@ then
 	fi
 fi
 ```
+
+It also allows you to start coding in new projects, with a given path, if they are not found in the database.
 
 # Installation
 
