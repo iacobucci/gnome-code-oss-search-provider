@@ -97,7 +97,7 @@ class SearchEngine():
     def open(self, id):
         for r in self.cache:
             if id == r[0]:
-                subprocess.Popen(["code", r[1]["href"]])
+                subprocess.Popen(["code", "--ozone-platform=x11", r[1]["href"]])
                 break
 
 
